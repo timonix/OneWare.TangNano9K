@@ -1,0 +1,36 @@
+{
+  "category": "FPGA Boards",
+  "type": "Hardware",
+  "name": "OneWare.TangNano9K Extension",
+  "id": "OneWare.TangNano9K",
+  "description": "TangNano9K Integration",
+  "license": "MIT",
+  "iconUrl": "https://raw.githubusercontent.com/timonix/OneWare.TangNano9K/main/demo.png",
+  "tabs": [
+    {
+      "title": "Readme",
+      "contentUrl": "https://raw.githubusercontent.com/timonix/OneWare.TangNano9K/main/Extension.md"
+    },
+    {
+      "title": "License",
+      "contentUrl": "https://raw.githubusercontent.com/timonix/OneWare.TangNano9K/main/License.md"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/timonix/OneWare.TangNano9K"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1",
+      "targets": [
+        {
+          "target": "all",
+          "url": "https://github.com/timonix/OneWare.TangNano9K/releases/download/0,1/OneWare.TangNano9K-0.1_all.zip"
+        }
+      ]
+    }
+  ]
+}
