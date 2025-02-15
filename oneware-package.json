@@ -28,7 +28,7 @@
       "targets": [
         {
           "target": "all",
-          "url": "https://github.com/timonix/OneWare.TangNano9K/releases/download/0,1/OneWare.TangNano9K-0.1_all.zip"
+          "url": "https://github.com/timonix/OneWare.TangNano9K/releases/download/0.1/OneWare.TangNano9K-0.1_all.zip"
         }
       ]
     }
