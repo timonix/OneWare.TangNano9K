@@ -1,0 +1,255 @@
+{"properties": {
+	"yosysToolchainYosysSynthTool": "synth_gowin",
+	"yosysToolchainYosysFlags": "",
+	"yosysToolchainNextPnrTool": "nextpnr-gowin",
+	"yosysToolchainNextPnrFlags": "",
+	"yosysToolchainPackTool": "gowin_pack",
+	"yosysToolchainPackFlags": "",
+	"openFpgaLoaderBoard": "tangnano9k",
+	"openFpgaLoaderShortTermFlags": "",
+	"openFpgaLoaderLongTermFlags": ""
+    },
+    "pins": [
+        {
+            "description": "clk_27mhz",
+            "name": "52"
+        },
+        {
+            "description": "tx",
+            "name": "17"
+        },
+        {
+            "description": "rx",
+            "name": "27"
+        },
+        {
+            "description": "btn1_n",
+            "name": "3"
+        },
+        {
+            "description": "btn2_n",
+            "name": "4"
+        },
+        {
+            "description": "o_led_0",
+            "name": "10"
+        },
+        {
+            "description": "o_led_1",
+            "name": "11"
+        },
+        {
+            "description": "o_led_2",
+            "name": "13"
+        },
+        {
+            "description": "o_led_3",
+            "name": "14"
+        },
+        {
+            "description": "o_led_4",
+            "name": "15"
+        },
+        {
+            "description": "o_led_5",
+            "name": "16"
+        },
+        {
+            "description": "spi_lcd_en",
+            "name": "47"
+        },
+
+        {
+            "description":"tf_cs",
+            "name":"38"
+        },
+        {
+            "description":"tf_mosi",
+            "name":"37"
+        },
+        {
+            "description":"tf_sclk",
+            "name":"36"
+        },
+        {
+            "description":"tf_miso",
+            "name":"39"
+        },
+        {
+            "description":"flash_miso",
+            "name":"62"
+        },
+        {
+            "description":"flash_mosi",
+            "name":"61"
+        },
+        {
+            "description":"flash_cs",
+            "name":"60"
+        },
+        {
+            "description":"flash_clk",
+            "name":"59"
+        },
+    
+        {
+            "description":"pin_25",
+            "name":"25"
+        },
+        {
+            "description":"pin_26",
+            "name":"26"
+        },
+        {
+            "description":"pin_28",
+            "name":"28"
+        },
+        {
+            "description":"pin_29",
+            "name":"29"
+        },
+        {
+            "description":"pin_30",
+            "name":"30"
+        },
+        {
+            "description":"pin_33",
+            "name":"33"
+        },
+        {
+            "description":"pin_34",
+            "name":"34"
+        },
+        {
+            "description":"pin_40",
+            "name":"40"
+        },
+        {
+            "description":"pin_35",
+            "name":"35"
+        },
+        {
+            "description":"pin_41",
+            "name":"41"
+        },
+        {
+            "description":"pin_42",
+            "name":"42"
+        },
+        {
+            "description":"pin_51",
+            "name":"51"
+        },
+        {
+            "description":"pin_53",
+            "name":"53"
+        },
+        {
+            "description":"pin_54",
+            "name":"54"
+        },
+        {
+            "description":"pin_55",
+            "name":"55"
+        },
+        {
+            "description":"pin_56",
+            "name":"56"
+        },
+        {
+            "description":"pin_57",
+            "name":"57"
+        },
+        {
+            "description":"hdmi_clk_n",
+            "name":"68"
+        },
+        {
+            "description":"hdmi_clk_p",
+            "name":"69"
+        },{
+            "description":"pin_63",
+            "name":"63"
+        },
+        {
+            "description":"pin_86",
+            "name":"86"
+        },
+        {
+            "description":"pin_85",
+            "name":"85"
+        },
+        {
+            "description":"pin_84",
+            "name":"84"
+        },
+        {
+            "description":"pin_83",
+            "name":"83"
+        },
+        {
+            "description":"pin_82",
+            "name":"82"
+        },
+        {
+            "description":"pin_81",
+            "name":"81"
+        },
+        {
+            "description":"pin_80",
+            "name":"80"
+        },
+        {
+            "description":"pin_79",
+            "name":"79"
+        },
+        {
+            "description":"spi_lcd_data",
+            "name":"77"
+        },
+        {
+            "description":"spi_lcd_clk",
+            "name":"76"
+        },
+        {
+            "description":"hdmi_D2_p",
+            "name":"75"
+        },
+        {
+            "description":"hdmi_D1_n",
+            "name":"74"
+        },
+        {
+            "description":"hdmi_D1_p",
+            "name":"73"
+        },
+        {
+            "description":"hdmi_D1_n",
+            "name":"72"
+        },
+        {
+            "description":"hdmi_D0_p",
+            "name":"71"
+        },
+        {
+            "description":"hdmi_D0_n",
+            "name":"70"
+        },
+        {
+            "description":"spi_lcd_cs",
+            "name":"48"
+        },
+        {
+            "description":"spi_lcd_rs",
+            "name":"49"
+        },
+        {
+            "description":"pin_31",
+            "name":"31"
+        },
+        {
+            "description":"pin_32",
+            "name":"32"
+        }
+    ]
+}

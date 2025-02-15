@@ -1,0 +1,1132 @@
+{
+    "width": 450,
+    "height": 230,
+    "elements": [
+        {
+            "type": "rect",
+            "x": 16,
+            "y": 47,
+            "width": 393,
+            "height": 144,
+            "color": "#21130d",
+            "cornerRadius": "10"
+        },
+        {
+            "type": "rect",
+            "x": 280,
+            "y": 105,
+            "width": 26,
+            "height": 28,
+            "color": "#AFAFAF",
+            "cornerRadius": "5"
+        },
+        {
+            "type": "rect",
+            "x": 280,
+            "y": 107,
+            "width": 6,
+            "height": 24,
+            "color": "#3F3F3F",
+            "cornerRadius": "5"
+        },
+        {
+            "type": "text",
+            "fontSize": 11,
+            "x": 279,
+            "y": 94,
+            "text": "LCD"
+        },
+        {
+            "type": "rect",
+            "x": 6,
+            "y": 93,
+            "width": 54,
+            "height": 54,
+            "color": "#3F3F3F",
+            "cornerRadius": "5"
+        },
+        
+        {
+            "type": "rect",
+            "x": 352,
+            "y": 73,
+            "width": 80,
+            "height": 94,
+            "color": "#AFAFAF",
+            "cornerRadius": "5"
+        },
+        {
+            "type": "rect",
+            "x": 352,
+            "y": 79,
+            "width": 15,
+            "height": 82,
+            "color": "#3F3F3F",
+            "cornerRadius": "2"
+        },
+        {
+            "type": "rect",
+            "x": 136,
+            "y": 91,
+            "width": 63,
+            "height": 59,
+            "color": "#3F3F3F",
+            "cornerRadius": "5"
+        },
+        {
+            "type": "text",
+            "fontSize": 14,
+            "x": 139,
+            "y": 109,
+            "text": "GW1NR-9"
+        },
+        {
+            "type": "rect",
+            "x": 232,
+            "y": 66,
+            "width": 33,
+            "height": 28,
+            "color": "#3F3F3F",
+            "cornerRadius": "5"
+        },
+        {
+            "type": "text",
+            "fontSize": 9,
+            "x": 235,
+            "y": 70,
+            "text": "SPI"
+        },
+        {
+            "type": "text",
+            "fontSize": 9,
+            "x": 235,
+            "y": 80,
+            "text": "flash"
+        },
+        {
+            "type": "pinArray",
+            "x": 230,
+            "y": 93,
+            "horizontal": true,
+            "textColor": "white",
+            "color": "purple",
+            "flipLabel": true,
+            "pins": [
+              {
+                "bind": "62",
+                "label": "miso"
+              },
+              {
+                "bind": "61",
+                "label": "mosi"
+              },
+              {
+                "bind": "60",
+                "label": "cs"
+              }
+              ,
+              {
+                "bind": "59",
+                "label": "clk"
+              }
+            ]
+          },
+        {
+            "type": "rect",
+            "x": 203,
+            "y": 140,
+            "width": 133,
+            "height": 37,
+            "color": "#AFAFAF",
+            "cornerRadius": "2"
+        },
+        {
+            "type": "rect",
+            "x": 208,
+            "y": 140,
+            "width": 123,
+            "height": 7,
+            "color": "#3F3F3F",
+            "cornerRadius": "2"
+        },
+        {
+          "type": "pin",
+          "x": 20,
+          "y": 65,
+          "label": "button 1",
+          "color": "#C09508",
+          "width": 21,
+          "height": 13,
+          "bind": "3"
+        }
+        ,
+        {
+          "type": "pin",
+          "x": 20,
+          "y": 158,
+          "label": "button 2",
+          "color": "#C09508",
+          "width": 21,
+          "height": 13,
+          "bind": "4"
+        },
+        {
+            "type": "pinArray",
+            "x": 116,
+            "y": 91,
+            "horizontal": false,
+            "textColor": "white",
+            "pins": [
+              {
+                "bind": "10",
+                "label": "LED 0",
+                "color": "green"
+              },
+              {
+                "bind": "11",
+                "label": "LED 1",
+                "color": "green"
+              },
+              {
+                "bind": "13",
+                "label": "LED 2",
+                "color": "green"
+              }
+              ,
+              {
+                "bind": "14",
+                "label": "LED 3",
+                "color": "green"
+              }
+              ,
+              {
+                "bind": "15",
+                "label": "LED 4",
+                "color": "green"
+              }
+              ,
+              {
+                "bind": "16",
+                "label": "LED 5",
+                "color": "green"
+              }
+            ]
+          },{
+            "type": "pinArray",
+            "x": 300,
+            "y": 83,
+            "horizontal": false,
+            "textColor": "white",
+            "color": "purple",
+            "flipLabel": true,
+            "pins": [
+              {
+                "bind": "76",
+                "label": "CK"
+              },
+              {
+                "bind": "48",
+                "label": "CS"
+              },
+              {
+                "bind": "77",
+                "label": "MO"
+              }
+              ,
+              {
+                "bind": "49",
+                "label": "RS"
+              },
+              {
+                "bind": "47",
+                "label": "EN"
+              }
+            ]
+          },
+        {
+            "type": "pin",
+            "x": 5,
+            "y": 103,
+            "label": "tx",
+            "color": "#C095A8",
+            "width": 16,
+            "height": 13,
+            "bind": "17"
+        },
+        {
+            "type": "pin",
+            "x": 5,
+            "y": 126,
+            "label": "rx",
+            "color": "#C095A8",
+            "width": 16,
+            "height": 13,
+            "bind": "27"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x": 27,
+            "y": 50,
+            "label": "63",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind": "63"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x": 41,
+            "y": 50,
+            "label": "86",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind": "86"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x": 55,
+            "y": 50,
+            "label": "85",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind": "85"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":69,
+            "y":50,
+            "label":"84",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind":"84"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":83,
+            "y":50,
+            "label":"83",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind":"83"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":97,
+            "y":50,
+            "label":"82",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind":"82"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":111,
+            "y":50,
+            "label":"81",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind":"81"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":125,
+            "y":50,
+            "label":"80",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind":"80"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":139,
+            "y":50,
+            "label":"79",
+            "color": "#d3d3d3",
+            "width": 14,
+            "height": 14,
+            "bind":"79"
+        },{
+            "type": "pin",
+            "rotation": 90,
+            "x":153,
+            "y":50,
+            "label":"77",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"77"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":167,
+            "y":50,
+            "label":"76",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"76"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":181,
+            "y":50,
+            "label":"75",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"75"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":195,
+            "y":50,
+            "label":"74",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"74"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":209,
+            "y":50,
+            "label":"73",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"73"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":223,
+            "y":50,
+            "label":"72",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"72"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":237,
+            "y":50,
+            "label":"71",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"71"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":251,
+            "y":50,
+            "label":"70",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"70"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":265,
+            "y":50,
+            "label":"5V",
+            "color": "red",
+            "width": 14,
+            "height": 14
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":279,
+            "y":50,
+            "label":"48",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"48"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":293,
+            "y":50,
+            "label":"49",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"49"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":307,
+            "y":50,
+            "label":"31",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"31"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":321,
+            "y":50,
+            "label":"32",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"32"
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":335,
+            "y":50,
+            "label":"GND",
+            "color": "#101010",
+            "width": 14,
+            "height": 14
+        },
+        {
+            "type": "pin",
+            "rotation": 90,
+            "x":349,
+            "y":50,
+            "label":"3V3",
+            "color": "red",
+            "width": 14,
+            "height": 14
+        },{
+            "type": "pin",
+            "rotation": 270,
+            "x":41,
+            "y":179,
+            "label":"38",
+            "color": "#20B0F0",
+            "width": 14,
+            "height": 14,
+            "bind":"38"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":55,
+            "y":179,
+            "label":"37",
+            "color": "#20B0F0",
+            "width": 14,
+            "height": 14,
+            "bind":"37"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":69,
+            "y":179,
+            "label":"36",
+            "color": "#20B0F0",
+            "width": 14,
+            "height": 14,
+            "bind":"36"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":83,
+            "y":179,
+            "label":"39",
+            "color": "#20B0F0",
+            "width": 14,
+            "height": 14,
+            "bind":"39"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":97,
+            "y":179,
+            "label":"25",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"25"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":111,
+            "y":179,
+            "label":"26",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"26"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":125,
+            "y":179,
+            "label":"27",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"27"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":139,
+            "y":179,
+            "label":"28",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"28"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":153,
+            "y":179,
+            "label":"29",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"29"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":167,
+            "y":179,
+            "label":"30",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"30"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":181,
+            "y":179,
+            "label":"33",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"33"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":195,
+            "y":179,
+            "label":"34",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"34"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":209,
+            "y":179,
+            "label":"40",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"40"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":223,
+            "y":179,
+            "label":"35",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"35"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":237,
+            "y":179,
+            "label":"41",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"41"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":251,
+            "y":179,
+            "label":"42",
+            "color": "#10ddFF",
+            "width": 14,
+            "height": 14,
+            "bind":"42"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":265,
+            "y":179,
+            "label":"51",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"51"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":279,
+            "y":179,
+            "label":"53",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"53"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":293,
+            "y":179,
+            "label":"54",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"54"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":307,
+            "y":179,
+            "label":"55",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"55"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":321,
+            "y":179,
+            "label":"56",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"56"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":335,
+            "y":179,
+            "label":"57",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"57"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":349,
+            "y":179,
+            "label":"68",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"68"
+        },
+        {
+            "type": "pin",
+            "rotation": 270,
+            "x":363,
+            "y":179,
+            "label":"69",
+            "color": "lime",
+            "width": 14,
+            "height": 14,
+            "bind":"69"
+        },
+        {
+            "type": "pinArray",
+            "x": 220,
+            "y": 145,
+            "horizontal": true,
+            "textColor": "white",
+            "color": "red",
+            "pins": [
+              {
+                "bind": "75"
+              },
+              {
+                "bind": "74"
+              },
+              {
+                "bind": "73"
+              },
+              {
+                "bind": "72"
+              },
+              {
+                "bind": "71"
+              }
+            ]
+          }
+          ,
+        {
+            "type": "pinArray",
+            "x": 210,
+            "y": 155,
+            "horizontal": true,
+            "textColor": "white",
+            "color": "green",
+            "pins": [
+              {
+                "bind": "70"
+              },
+              {
+                "bind": "69"
+              },
+              {
+                "bind": "68"
+              },
+              {
+                "bind": "57"
+              },
+              {
+                "bind": "56"
+              },
+              {
+                "bind": "55"
+              }
+            ]
+          },
+          {
+              "type": "pinArray",
+              "x": 220,
+              "y": 165,
+              "horizontal": true,
+              "textColor": "white",
+              "color": "blue",
+              "pins": [
+                {
+                  "bind": "54"
+                },
+                {
+                  "bind": "53"
+                },
+                {
+                  "bind": "51"
+                },
+                {
+                  "bind": "42"
+                },
+                {
+                  "bind": "41"
+                }
+              ]
+            },
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 212,
+                "y": 154,
+                "text": "2"
+            },
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 222,
+                "y": 154,
+                "text": "3"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 232,
+                "y": 154,
+                "text": "4"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 242,
+                "y": 154,
+                "text": "5"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 252,
+                "y": 154,
+                "text": "6"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 262,
+                "y": 154,
+                "text": "7"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 222,
+                "y": 144,
+                "text": "3"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 232,
+                "y": 144,
+                "text": "4"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 242,
+                "y": 144,
+                "text": "5"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 252,
+                "y": 144,
+                "text": "6"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 262,
+                "y": 144,
+                "text": "7"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 222,
+                "y": 164,
+                "text": "3"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 232,
+                "y": 164,
+                "text": "4"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 242,
+                "y": 164,
+                "text": "5"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 252,
+                "y": 164,
+                "text": "6"
+            }
+            ,
+            {
+                "type": "text",
+                "fontSize": 10,
+                "x": 262,
+                "y": 164,
+                "text": "7"
+            },
+            {
+                "type": "pin",
+                "x":275,
+                "y":164,
+                "label":"DE",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"33"
+            },
+            {
+                "type": "pin",
+                "x":275,
+                "y":154,
+                "label":"HS",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"40"
+            },
+            {
+                "type": "pin",
+                "x":275,
+                "y":144,
+                "label":"VS",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"34"
+            },
+            {
+                "type": "pin",
+                "x":300,
+                "y":144,
+                "label":"CK",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"35"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":73,
+                "label":"clk_p",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"69"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":83,
+                "label":"clk_n",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"68"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":95,
+                "label":"D0_p",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"71"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":105,
+                "label":"D0_n",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"70"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":117,
+                "label":"D1_p",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"73"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":127,
+                "label":"D1_n",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"72"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":140,
+                "label":"D2_p",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"75"
+            },
+            {
+                "type": "pin",
+                "x":422,
+                "y":150,
+                "label":"D2_n",
+                "color": "pink",
+                "width": 10,
+                "height": 10,
+                "flipLabel": true,
+                "bind":"74"
+            }
+
+
+          
+
+        
+    ]
+}
