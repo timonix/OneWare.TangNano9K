@@ -9,6 +9,7 @@
 	"openFpgaLoaderShortTermFlags": "",
 	"openFpgaLoaderLongTermFlags": "",
     "gowinDevice":"GW1NR-LV9QN88PC6/I5",
+    "gowinDeviceName":"GW1NR-9C",
     "gowinDeviceVersion":"C"
 
     },
