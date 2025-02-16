@@ -1,4 +1,4 @@
-# OneWare.TangNano9K
+TangNano9K
 
 OneWare Studio Integration for Sipeed Tang Nano 9k
 

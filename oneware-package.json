@@ -1,7 +1,7 @@
 {
   "category": "FPGA Boards",
   "type": "Hardware",
-  "name": "TangNano9K Extension",
+  "name": "TangNano9K",
   "id": "OneWare.TangNano9K",
   "description": "TangNano9K Integration",
   "license": "MIT",
