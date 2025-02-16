@@ -7,7 +7,10 @@
 	"yosysToolchainPackFlags": "",
 	"openFpgaLoaderBoard": "tangnano9k",
 	"openFpgaLoaderShortTermFlags": "",
-	"openFpgaLoaderLongTermFlags": ""
+	"openFpgaLoaderLongTermFlags": "",
+    "gowinDevice":"GW1NR-LV9QN88PC6/I5",
+    "gowinDeviceVersion":"C"
+
     },
     "pins": [
         {
